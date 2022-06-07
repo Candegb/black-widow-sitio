@@ -1,0 +1,571 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #636e72;
+}
+
+main{
+	width: 940px;
+	height: 600px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondo.jpg);
+	background-size: 115%;
+	background-position: 20% 40%;
+}
+
+header{
+	width: 940px;
+	height: 62px;
+	background-color: #A3A4AA;
+	opacity: 70%;
+}
+
+article{
+	width: 940px;
+	height: 350px;
+	}
+
+ li{
+    display:inline-block;
+    width:80 px;
+    padding:5px 10px;
+    background-color:#b2bec3;
+    border:none;
+    text-align:center;
+    font-size:9 pt;
+    border-radius: 10px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: black;
+    text-align: right;	
+    font-family: myriad pro; regular;
+    opacity: 100%;
+ }
+
+    li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+footer{
+	width: 940px;
+	height: 32px;
+	background-color: black;
+	clear: both;
+	bottom: auto;
+}
+
+.logo{
+	margin-left: 40px;
+	width: 152px;
+	height: 22px;
+	margin-top: 25px;
+	float: left;
+}
+
+h1{
+  color: #F2F2F2;
+  font-family: "black widow movie";
+  font-size: 68px;
+  margin-left: 40px;
+  margin-top: 160px;
+  letter-spacing: 5px;
+}
+
+h2{
+  color: #F2F2F2;
+  font-family: "myriad pro regular";
+  font-size: 13px;
+  margin-left: 40px;
+  letter-spacing: 1px;
+}
+
+.uces{
+	margin-left: 40px;
+	width: 35px;
+	height: 20px;
+	margin-top: 3px;
+	float: left;
+}
+
+p{
+   color: #F2F2F2;
+   font-family: "myriad pro regular";
+   font-size: 10px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.marvel{
+	margin-right: 40px;
+	width: 86px;
+	height: 20px;
+	margin-top: 6px;
+	float: right;
+}
+
+
+
+
+/* Small (mobiles, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+ body{ background-color: yellow;} 
+ main{
+	width: 576px;
+	height: 767px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondosmall.jpg);
+	background-size: 100%;
+}
+
+header{
+	width: 576px;
+	height: 110px;
+	background-color: #A3A4AA;
+	opacity: 70%;
+}
+
+article{
+	width: 576px;
+	height: 600px;
+	}
+
+ li{
+    display:inline-block;
+    width:80 px;
+    padding:5px 10px;
+    background-color:#b2bec3;
+    border:none;
+    text-align:center;
+    font-size:12px;
+    border-radius: 10px;    
+    margin-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+ li a{
+    text-decoration:none;
+    color: black;
+    text-align: right;	
+    font-family: myriad pro; regular;
+    opacity: 100%;
+ }
+
+    li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+footer{
+	width: 576px;
+	height: 32px;
+	background-color: black;
+	clear: both;
+	bottom: auto;
+}
+
+.logo{
+	width: 152px;
+	height: 22px;
+	margin-top: 30px;
+	margin-left: 40%;
+}
+
+h1{
+  color: #F2F2F2;
+  font-family: "black widow movie";
+  font-size: 70px;
+  text-align: center;
+  margin-top: 35px;
+  letter-spacing: 5px;
+}
+
+h2{
+  color: #F2F2F2;
+  font-family: "myriad pro regular";
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.uces{
+	margin-left: 40px;
+	width: 35px;
+	height: 20px;
+	margin-top: 3px;
+	float: left;
+}
+
+p{
+   color: #F2F2F2;
+   font-family: "myriad pro regular";
+   font-size: 10px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.marvel{
+	margin-right: 40px;
+	width: 86px;
+	height: 20px;
+	margin-top: 6px;
+	float: right;
+}
+
+}
+
+
+
+
+
+/*Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+ body{ background-color: green;}
+ main{
+	width: 768px;
+	height: 600px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondo.jpg);
+	background-size: 140%;
+	background-position: 20% 80%;
+}
+
+header{
+	width: 768px;
+	height: 62px;
+	background-color: #A3A4AA;
+	opacity: 70%;
+}
+
+article{
+	width: 768px;
+	height: 326px;
+	}
+
+ li{
+    display:inline-block;
+    width:80 px;
+    padding:5px 10px;
+    background-color:#b2bec3;
+    border:none;
+    text-align:center;
+    font-size:15px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: black;
+    text-align: right;	
+    font-family: myriad pro; regular;
+    opacity: 100%;
+ }
+
+    li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+footer{
+	width: 768px;
+	height: 32px;
+	background-color: black;
+	clear: both;
+	bottom: auto;
+}
+
+.logo{
+	margin-left: 40px;
+	width: 152px;
+	height: 22px;
+	margin-top: 25px;
+	float: left;
+}
+
+h1{
+  color: #F2F2F2;
+  font-family: "black widow movie";
+  font-size: 50px;
+  text-align: left;
+  margin-top: 180px;
+  letter-spacing: 5px;
+}
+
+h2{
+  color: #F2F2F2;
+  font-family: "myriad pro regular";
+  font-size: 11px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.uces{
+	margin-left: 40px;
+	width: 35px;
+	height: 20px;
+	margin-top: 3px;
+	float: left;
+}
+
+p{
+   color: #F2F2F2;
+   font-family: "myriad pro regular";
+   font-size: 10px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.marvel{
+	margin-right: 40px;
+	width: 86px;
+	height: 20px;
+	margin-top: 6px;
+	float: right;
+}
+}
+
+
+
+
+/*Large  (escritorio, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+ body{ background-color: blue;}
+  main{
+	width: 992px;
+	height: 600px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondo.jpg);
+	background-size: 110%;
+}
+
+header{
+	width: 992px;
+	height: 62px;
+	background-color: #A3A4AA;
+	opacity: 70%;
+}
+
+article{
+	width: 992px;
+	height: 345px;
+	}
+
+ li{
+    display:inline-block;
+    width:80 px;
+    padding:5px 10px;
+    background-color:#b2bec3;
+    border:none;
+    text-align:center;
+    font-size:18px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 55px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: black;
+    text-align: right;	
+    font-family: myriad pro; regular;
+    opacity: 100%;
+ }
+
+    li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+footer{
+	width: 992px;
+	height: 32px;
+	background-color: black;
+	clear: both;
+	bottom: auto;
+}
+
+.logo{
+	margin-left: 40px;
+	width: 152px;
+	height: 22px;
+	margin-top: 25px;
+	float: left;
+}
+
+h1{
+  color: #F2F2F2;
+  font-family: "black widow movie";
+  font-size: 70px;
+  text-align: left;
+  margin-top: 160px;
+  letter-spacing: 5px;
+}
+
+h2{
+  color: #F2F2F2;
+  font-family: "myriad pro regular";
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.uces{
+	margin-left: 40px;
+	width: 35px;
+	height: 20px;
+	margin-top: 3px;
+	float: left;
+}
+
+p{
+   color: #F2F2F2;
+   font-family: "myriad pro regular";
+   font-size: 10px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.marvel{
+	margin-right: 40px;
+	width: 86px;
+	height: 20px;
+	margin-top: 6px;
+	float: right;
+}
+}
+
+
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+ body{ background-color: #636e72;}
+  main{
+	width: 1200px;
+	height: 600px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondoxl.jpg);
+	background-size: 100%;
+}
+
+header{
+	width: 1200px;
+	height: 62px;
+	background-color: #A3A4AA;
+	opacity: 70%;
+}
+
+article{
+	width: 1200px;
+	height: 378px;
+	}
+
+ li{
+    display:inline-block;
+    width:80px;
+    padding:5px 5px;
+    background-color:#b2bec3;
+    border:none;
+    text-align:center;
+    font-size:16px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 110px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: black;
+    text-align: right;	
+    font-family: myriad pro; regular;
+    opacity: 100%;
+ }
+
+    li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+footer{
+	width: 1200px;
+	height: 32px;
+	background-color: black;
+	clear: both;
+	bottom: auto;
+}
+
+.logo{
+	margin-left: 70px;
+	width: 152px;
+	height: 22px;
+	margin-top: 25px;
+	float: left;
+}
+
+.uces{
+	margin-left: 70px;
+	width: 35px;
+	height: 20px;
+	margin-top: 3px;
+	float: left;
+}
+
+h1{
+  color: #F2F2F2;
+  font-family: "black widow movie";
+  font-size: 70px;
+  margin-left: 70px;
+  margin-top: 160px;
+  letter-spacing: 5px;
+}
+
+h2{
+  color: #F2F2F2;
+  font-family: "myriad pro regular";
+  font-size: 16px;
+  margin-left: 70px;
+  letter-spacing: 1px;
+}
+
+p{
+   color: #F2F2F2;
+   font-family: "myriad pro regular";
+   font-size: 10px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.marvel{
+	margin-right: 110px;
+	width: 86px;
+	height: 20px;
+	margin-top: 6px;
+	float: right;
+}
+  }
+
